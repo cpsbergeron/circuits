@@ -10,8 +10,8 @@ Plusieurs valeurs sont incorrectes. Apporte les modifications nécessaires.
 
 ## Étape 1
 
-Le circuit doit clignoter lorsque le bouton A est pressé.
-Le circuit doit s'allumer lorsque le bouton B est pressé.
+Le circuit doit s'allumer lorsque le bouton A est pressé.
+Le circuit doit clignoter lorsque le bouton B est pressé.
 Le circuit doit d'éteindre lorsque le bouton A+B est pressé.
 
 ```blocks
