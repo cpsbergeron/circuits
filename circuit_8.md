@@ -2,7 +2,9 @@
 
 ## @showdialog
 
-Utilise l'ensemble des blocs de programmation pour inventer une séquence.
+Regarde la vidéo sur le babillard virtuel.
+
+Utilise l'ensemble des blocs de programmation pour reproduire les mêmes actions.
 
 Le circuit électrique doit être composé de 3 diodes.
 
