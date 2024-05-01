@@ -146,6 +146,63 @@ basic.forever(function () {
 
 ``` 
 
+## Étape 9
+
+Ajoute le bloc ``|| input: lorsque le bouton A est pressé   ||``. 
+
+Ajoute le bloc ``|| basic: montrer nombre ||`` dans le bloc ``|| input: lorsque le bouton A est pressé   ||``.
+
+```blocks
+
+input.onButtonPressed(Button.A, function () {
+    basic.showNumber(0)
+})
+
+```
+
+## Étape 10
+
+Remplace la valeur ``|| basic: 0 ||`` du bloc ``|| basic: montrer nombre ||`` par le bloc ``||math:0 x 0||``.
+
+```blocks
+
+input.onButtonPressed(Button.A, function () {
+    basic.showNumber(0 * 0)
+})
+
+
+```
+
+## Étape 11
+
+Remplace la valeur ``|| math: 0 ||`` de droite du bloc ``||math:0 x 0||`` par le bloc ``||math:0 / 0||``.
+
+```blocks
+
+input.onButtonPressed(Button.A, function () {
+    basic.showNumber(0 * (0 / 0))
+})
+
+
+```
+
+## Étape 12
+
+Remplace la valeur ``|| math: 0 ||`` de gauche par le bloc ``||variables:LED  ||``.
+
+Remplace la valeur ``|| math: 0 ||`` du centre par la valeur ``|| math: 100 ||``.
+
+Remplace la valeur ``|| math: 0 ||`` de droite par la valeur ``|| math: 255 ||``.
+
+```blocks
+
+input.onButtonPressed(Button.A, function () {
+    basic.showNumber(LED * (100 / 255))
+})
+
+
+```
+
 ## @showdialog 
 
 Réalise le branchement ci-dessous.
