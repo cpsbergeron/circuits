@@ -2,7 +2,7 @@
 
 ## @showdialog
 
-Utilise la LED arc-en-ciel pour réaliser le défi et 6 pinces crocodiles.
+Utilise 🌈 la LED arc-en-ciel 🌈 pour réaliser le défi et 6 pinces crocodiles.
 
 ## @showdialog
 
