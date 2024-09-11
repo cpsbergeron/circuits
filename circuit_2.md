@@ -4,7 +4,11 @@
 
 Programme le micro:bit et le circuit électrique.
 
-## Étape 1
+## Étape 1 
+
+Supprime les blocs ``||basic:au démarrage||`` et ``||basic:toujours||``.
+
+## Étape 2
 
 Ajoute le bloc ``|| pins: écrire sur la broche ||`` dans le bloc ``|| input: lorsque le bouton A est pressé ||``.
 
@@ -16,7 +20,7 @@ input.onButtonPressed(Button.A, function () {
 
 ```
 
-## Étape 2
+## Étape 3
 
 Modifie les valeurs du bloc ``|| pins: écrire sur la broche ||``.
 
@@ -32,7 +36,7 @@ input.onButtonPressed(Button.A, function () {
 
 ```
 
-## Étape 3
+## Étape 4
 
 Ajoute un nouveau bloc ``|| pins: écrire sur la broche ||`` dans le bloc ``|| input: lorsque le bouton B est pressé ||``.
 
@@ -45,7 +49,7 @@ input.onButtonPressed(Button.B, function () {
 
 ```
 
-## Étape 4
+## Étape 5
 
 Modifie les valeurs du bloc ``|| pins: écrire sur la broche ||``.
 
