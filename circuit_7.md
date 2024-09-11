@@ -10,7 +10,12 @@ Utilise la LED arc-en-ciel pour réaliser le défi et 6 pinces crocodiles.
 ➡️ Le circuit doit clignoter lorsque le bouton B est pressé. 
 ➡️ Le circuit doit s'éteindre lorsque le bouton A+B est pressé. 
 
-## Étape 1
+
+## Étape 1 
+
+Supprime les blocs ``||basic:au démarrage||`` et ``||basic:toujours||``.
+
+## Étape 2
 
 ➡️ Le circuit doit s'allumer lorsque le bouton A est pressé. 
 
@@ -24,7 +29,7 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-## Étape 2
+## Étape 3
 
 ➡️ Le circuit doit s'allumer lorsque le bouton A est pressé. 
 
@@ -36,29 +41,6 @@ input.onButtonPressed(Button.A, function () {
     pins.digitalWritePin(DigitalPin.P0, 0)
     pins.digitalWritePin(DigitalPin.P0, 0)
     pins.digitalWritePin(DigitalPin.P0, 0)
-})
-
-```
-
-## Étape 3
-
-➡️ Le circuit doit clignoter lorsque le bouton B est pressé. 
-
-🚨 À l'aide de l'indice, reproduis la programmation.
-
-```blocks
-
-input.onButtonPressed(Button.A, function () {
-    for (let index = 0; index < 4; index++) {
-        pins.digitalWritePin(DigitalPin.P0, 0)
-        pins.digitalWritePin(DigitalPin.P0, 0)
-        pins.digitalWritePin(DigitalPin.P0, 0)
-        basic.pause(200)
-        pins.digitalWritePin(DigitalPin.P0, 0)
-        pins.digitalWritePin(DigitalPin.P0, 0)
-        pins.digitalWritePin(DigitalPin.P0, 0)
-        basic.pause(200)
-    }
 })
 
 ```
@@ -67,7 +49,7 @@ input.onButtonPressed(Button.A, function () {
 
 ➡️ Le circuit doit clignoter lorsque le bouton B est pressé. 
 
-🚨 Plusieurs valeurs sont incorrectes. Apporte les modifications nécessaires.
+🚨 À l'aide de l'indice, reproduis la programmation.
 
 ```blocks
 
@@ -88,26 +70,52 @@ input.onButtonPressed(Button.A, function () {
 
 ## Étape 5
 
+➡️ Le circuit doit clignoter lorsque le bouton B est pressé. 
+
+🚨 Plusieurs valeurs sont incorrectes. Apporte les modifications nécessaires.
+
+```blocks
+
+input.onButtonPressed(Button.A, function () {
+    for (let index = 0; index < 4; index++) {
+        pins.digitalWritePin(DigitalPin.P0, 0)
+        pins.digitalWritePin(DigitalPin.P0, 0)
+        pins.digitalWritePin(DigitalPin.P0, 0)
+        basic.pause(200)
+        pins.digitalWritePin(DigitalPin.P0, 0)
+        pins.digitalWritePin(DigitalPin.P0, 0)
+        pins.digitalWritePin(DigitalPin.P0, 0)
+        basic.pause(200)
+    }
+})
+
+```
+
+## Étape 6
+
 ➡️ Le circuit doit s'éteindre lorsque le bouton A+B est pressé. 
 
 🚨 À l'aide de l'indice, reproduis la programmation.
 
 ```blocks
+
 input.onButtonPressed(Button.A, function () {
     pins.digitalWritePin(DigitalPin.P0, 0)
     pins.digitalWritePin(DigitalPin.P0, 0)
     pins.digitalWritePin(DigitalPin.P0, 0)
 })
+
 ```
 
-## Étape 6
+## Étape 7
 
-➡️ Le circuit doit s'allumer lorsque le bouton A est pressé. 
+➡️ Le circuit doit s'éteindre lorsque le bouton A+B est pressé. 
 
 🚨 Plusieurs valeurs sont incorrectes. Apporte les modifications nécessaires.
 
 ```blocks
-input.onButtonPressed(Button.B, function () {
+
+input.onButtonPressed(Button.A, function () {
     pins.digitalWritePin(DigitalPin.P0, 0)
     pins.digitalWritePin(DigitalPin.P0, 0)
     pins.digitalWritePin(DigitalPin.P0, 0)
