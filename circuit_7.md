@@ -4,10 +4,6 @@
 
 Utilise la LED arc-en-ciel pour réaliser le défi et 6 pinces crocodiles.
 
-## @showdialog
-
-Plusieurs valeurs sont incorrectes. Apporte les modifications nécessaires.
-
 ## Étape 1
 
 Utilise l'indice pour reproduire la programmation.
@@ -38,14 +34,17 @@ input.onButtonPressed(Button.B, function () {
 })
 
 ```
+## @showdialog
+
+Plusieurs valeurs sont incorrectes. 
 
 ## Étape 2
 
 Apporte les modifications nécessaires.
 
-Le circuit doit s'allumer lorsque le bouton A est pressé.
-Le circuit doit clignoter lorsque le bouton B est pressé.
-Le circuit doit s'éteindre lorsque le bouton A+B est pressé.
+➡️ Le circuit doit s'allumer lorsque le bouton A est pressé. 
+➡️ Le circuit doit clignoter lorsque le bouton B est pressé. 
+➡️ Le circuit doit s'éteindre lorsque le bouton A+B est pressé. 
 
 ```blocks
 
