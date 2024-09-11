@@ -42,6 +42,34 @@ input.onButtonPressed(Button.B, function () {
 
 ```
 
+```template
+
+input.onButtonPressed(Button.A, function () {
+    for (let index = 0; index < 4; index++) {
+        pins.digitalWritePin(DigitalPin.P0, 0)
+        pins.digitalWritePin(DigitalPin.P0, 0)
+        pins.digitalWritePin(DigitalPin.P0, 0)
+        basic.pause(200)
+        pins.digitalWritePin(DigitalPin.P0, 0)
+        pins.digitalWritePin(DigitalPin.P0, 0)
+        pins.digitalWritePin(DigitalPin.P0, 0)
+        basic.pause(200)
+    }
+})
+input.onButtonPressed(Button.AB, function () {
+    pins.digitalWritePin(DigitalPin.P0, 0)
+    pins.digitalWritePin(DigitalPin.P0, 0)
+    pins.digitalWritePin(DigitalPin.P0, 0)
+})
+input.onButtonPressed(Button.B, function () {
+    pins.digitalWritePin(DigitalPin.P0, 0)
+    pins.digitalWritePin(DigitalPin.P0, 0)
+    pins.digitalWritePin(DigitalPin.P0, 0)
+})
+
+
+```
+
 ## @showdialog 
 
 Félicitations! Tu as terminé de programmer un circuit électrique avec plusieurs lumières LED.
