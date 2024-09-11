@@ -34,7 +34,7 @@ input.onButtonPressed(Button.A, function () {
 
 ## Étape 3
 
-Ajoute le bloc ``|| pins: écrire sur la broche ||`` dans le bloc ``|| input: lorsque le bouton B est pressé ||``.
+Ajoute un nouveau bloc ``|| pins: écrire sur la broche ||`` dans le bloc ``|| input: lorsque le bouton B est pressé ||``.
 
 
 ```blocks
