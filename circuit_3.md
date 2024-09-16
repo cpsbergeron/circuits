@@ -4,10 +4,15 @@
 
 Programme le micro:bit et le circuit électrique.
 
-## Étape 1
+## Étape 1 
+
+Supprime les blocs ``||basic:au démarrage||`` et ``||basic:toujours||``.
+
+## Étape 2
+
+Glisse le bloc ``|| input: lorsque secouer ||`` dans la zone de programmation.
 
 Ajoute le bloc ``|| pins: écrire sur la broche ||`` dans le bloc ``|| input: lorsque secouer ||``.
-
 
 ```blocks
 

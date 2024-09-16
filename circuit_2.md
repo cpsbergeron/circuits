@@ -10,6 +10,8 @@ Supprime les blocs ``||basic:au démarrage||`` et ``||basic:toujours||``.
 
 ## Étape 2
 
+ Glisse le bloc ``|| input: lorsque le bouton A est pressé ||`` dans la zone de programmation.
+
 Ajoute le bloc ``|| pins: écrire sur la broche ||`` dans le bloc ``|| input: lorsque le bouton A est pressé ||``.
 
 ```blocks
@@ -37,6 +39,8 @@ input.onButtonPressed(Button.A, function () {
 ```
 
 ## Étape 4
+
+ Glisse le bloc ``|| input: lorsque le bouton B est pressé ||`` dans la zone de programmation.
 
 Ajoute un nouveau bloc ``|| pins: écrire sur la broche ||`` dans le bloc ``|| input: lorsque le bouton B est pressé ||``.
 

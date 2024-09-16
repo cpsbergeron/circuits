@@ -155,13 +155,13 @@ basic.forever(function () {
 
 ## Étape 9
 
-Ajoute le bloc ``|| input: lorsque le bouton A est pressé   ||``. 
+Glisse le bloc ``|| input: lorsque le bouton B est pressé   ||`` dans la zone de programmation.
 
-Ajoute le bloc ``|| basic: montrer nombre ||`` dans le bloc ``|| input: lorsque le bouton A est pressé   ||``.
+Ajoute le bloc ``|| basic: montrer nombre ||`` dans le bloc ``|| input: lorsque le bouton B est pressé   ||``.
 
 ```blocks
 
-input.onButtonPressed(Button.A, function () {
+input.onButtonPressed(Button.B, function () {
     basic.showNumber(0)
 })
 
@@ -173,7 +173,7 @@ Remplace la valeur ``|| basic: 0 ||`` du bloc ``|| basic: montrer nombre ||`` pa
 
 ```blocks
 
-input.onButtonPressed(Button.A, function () {
+input.onButtonPressed(Button.B, function () {
     let Température = 0
     basic.showNumber(Température)
 })

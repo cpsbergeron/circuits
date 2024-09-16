@@ -6,8 +6,9 @@ Programme le micro:bit et le circuit électrique.
 
 ## Étape 1
 
-Ajoute trois blocs ``|| pins: écrire sur la broche ||`` dans le bloc ``|| input: lorsque le bouton A est pressé ||``.
+Glisse le bloc ``|| input: lorsque le bouton A est pressé ||`` dans la zone de programmation.
 
+Ajoute trois blocs ``|| pins: écrire sur la broche ||`` dans le bloc ``|| input: lorsque le bouton A est pressé ||``.
 
 ```blocks
 
@@ -24,8 +25,8 @@ input.onButtonPressed(Button.A, function () {
 Modifie les valeurs du bloc ``|| pins: écrire sur la broche ||``.
 
 Chaque lumière LED doit s'allumer lorsque le bouton A est pressé.
-Remplace les valeurs pour paramétrer trois broches.
-Regarde l'indice au besoin.
+
+➡️ Regarde l'indice au besoin.
 
 ```blocks
 
@@ -39,8 +40,9 @@ input.onButtonPressed(Button.A, function () {
 
 ## Étape 3
 
-Ajoute trois blocs ``|| pins: écrire sur la broche ||`` dans le bloc ``|| input: lorsque le bouton B est pressé ||``.
+Glisse le bloc ``|| input: lorsque le bouton B est pressé ||`` dans la zone de programmation.
 
+Ajoute trois blocs ``|| pins: écrire sur la broche ||`` dans le bloc ``|| input: lorsque le bouton B est pressé ||``.
 
 ```blocks
 
@@ -57,8 +59,8 @@ input.onButtonPressed(Button.B, function () {
 Modifie les valeurs du bloc ``|| pins: écrire sur la broche ||``.
 
 Chaque lumière LED doit s'éteindre lorsque le bouton B est pressé.
-Remplace les valeurs pour paramétrer trois broches.
-Regarde l'indice au besoin.
+
+➡️ Regarde l'indice au besoin.
 
 ```blocks
 
@@ -69,12 +71,6 @@ input.onButtonPressed(Button.B, function () {
 })
 
 ```
-
-## @showdialog 
-
-Combien de lumière LED dois-tu brancher ?
-
-Combien de pinces crocodiles dois-tu utiliser ?
 
 ## @showdialog 
 
