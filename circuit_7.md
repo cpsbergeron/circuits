@@ -7,7 +7,9 @@ Utilise les branchements du tutoriel précédent pour réaliser la programmation
 ## @showdialog
 
 ➡️ Le circuit doit s'allumer lorsque le bouton A est pressé. 
+
 ➡️ Le circuit doit clignoter lorsque le bouton B est pressé. 
+
 ➡️ Le circuit doit s'éteindre lorsque le bouton A+B est pressé. 
 
 

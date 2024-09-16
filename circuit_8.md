@@ -231,7 +231,7 @@ basic.forever(function () {
             pins.digitalWritePin(DigitalPin.P0, 0)
             pins.digitalWritePin(DigitalPin.P0, 0)
             pins.digitalWritePin(DigitalPin.P0, 0)
-            basic.pause(500)
+            basic.pause(100)
         }
     } else {
         pins.digitalWritePin(DigitalPin.P0, 0)
