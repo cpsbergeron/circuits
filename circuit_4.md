@@ -13,7 +13,7 @@ Supprime le bloc ``||basic:au démarrage||``.
  
 Crée une ``|| variables: variable  ||`` et donne lui le nom ``|| variables: LED  ||``. 
 
-Ajoute le bloc ``|| variables: définir LED à 0 ||`` sous le bloc ``|| basic: toujours  ||``.
+Ajoute le bloc ``|| variables: définir LED ||`` dans le bloc ``|| basic: toujours  ||``.
 
 ```blocks
 
