@@ -10,7 +10,8 @@ Dans ce tutoriel, tu vas programmer un micro:bit 💻 et réaliser un petit circ
 ## Étape 1
 
 Supprime le bloc ``||basic:au démarrage||``.
-Tu n'en auras pas besoin.
+
+🗑️ Tu n'en auras pas besoin pour ce programme.
 
 ## Étape 2
 
@@ -55,7 +56,7 @@ basic.forever(function () {
 
 ➡️ Bravo! Tu viens de programmer ton premier circuit électrique avec une LED! 💡🚀
 
-Pour tester ta séquence :
+Pour tester :
 
 📥 Télécharge ton programme dans le micro:bit.
 👀 Observe la LED s'allumer grâce à ta programmation!

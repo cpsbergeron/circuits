@@ -2,11 +2,13 @@
 
 ## @showdialog
 
-Programme le micro:bit et le circuit électrique.
+Dans ce tutoriel, tu vas programmer ton micro:bit 💻 et créer un circuit électrique 🔌 où les boutons 🅰️ et 🅱️ serviront à allumer et à éteindre une DEL (LED) 💡.
 
 ## Étape 1 
 
 Supprime les blocs ``||basic:au démarrage||`` et ``||basic:toujours||``.
+
+🗑️ Tu n'en auras pas besoin pour ce programme.
 
 ## Étape 2
 
@@ -29,6 +31,8 @@ Modifie les valeurs du bloc ``|| pins: écrire sur la broche ||``.
 Remplace la broche ``|| pins: P0 ||`` par ``|| pins: P1 ||``.
 
 Remplace la valeur ``|| pins: 0 ||`` par ``|| pins: 1 ||``.
+
+La valeur 1 envoie un signal 🔆 allumé à la broche P1.
 
 ```blocks
 
@@ -61,6 +65,8 @@ Remplace la broche ``|| pins: P0 ||`` par ``|| pins: P1 ||``.
 
 La valeur ``|| pins: 0 ||`` demeure la même.
 
+Ce bloc envoie un signal 0 (💤 éteint) sur la broche P1.
+
 ```blocks
 
 input.onButtonPressed(Button.B, function () {
@@ -71,14 +77,19 @@ input.onButtonPressed(Button.B, function () {
 
 ## @showdialog 
 
-Réalise le branchement ci-dessous.
-
-La couleur des fils n'a pas d'importance!
+🔌 Reproduis le branchement ci‑dessous.
+🎨 La couleur des fils n'a pas d'importance!
 
 ![MicroSeb](https://github.com/sbergeroncp/micro-seb/blob/master/2.png?raw=true)
 
 ## @showdialog 
 
-Félicitations! Tu as terminé de programmer un circuit électrique avec une lumière LED.
+🎉🎉🎉
+➡️ Bravo! Tu viens de programmer un circuit électrique contrôlé par les boutons 🅰️ et 🅱️.
 
-Pour tester le circuit électrique, télécharge la programmation dans le micro:bit.
+Pour tester  :
+
+📥 Télécharge ton programme dans le micro:bit.
+👆 Appuie sur A pour allumer la LED.
+👆 Appuie sur B pour l'éteindre.
+✨ Observe ton circuit en action!
