@@ -10,7 +10,7 @@ Dans ce tutoriel, tu vas programmer ton micro:bit 💻 et créer un circuit éle
 
 Supprime les blocs ``||basic:au démarrage||`` et ``||basic:toujours||``.
 
-🗑️ Tu n'en auras pas besoin pour ce programme.
+🗑️ Tu n'en auras pas besoin pour ce projet.
 
 ## Étape 2
 
@@ -34,7 +34,7 @@ Remplace la broche ``|| pins: P0 ||`` par ``|| pins: P1 ||``.
 
 Remplace la valeur ``|| pins: 0 ||`` par ``|| pins: 1 ||``.
 
-La valeur 1 envoie un signal 🔆 allumé à la broche P1.
+La valeur 1 envoie un signal 🔆 à la broche P1.
 
 ```blocks
 

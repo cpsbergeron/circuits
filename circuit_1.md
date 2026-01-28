@@ -12,7 +12,7 @@ Dans ce tutoriel, tu vas programmer un micro:bit 💻 et réaliser un petit circ
 
 Supprime le bloc ``||basic:au démarrage||``.
 
-🗑️ Tu n'en auras pas besoin pour ce programme.
+🗑️ Tu n'en auras pas besoin pour ce projet.
 
 ## Étape 2
 
@@ -34,7 +34,7 @@ Modifie les valeurs du bloc ``|| pins: écrire sur la broche ||``.
 
 Remplace la valeur ``|| pins: 0 ||`` par ``|| pins: 1 ||``.
 
-La valeur 1 envoie un signal 🔆 allumé à la broche P0.
+La valeur 1 envoie un signal 🔆 à la broche P0.
 
 ```blocks
 

@@ -2,15 +2,21 @@
 
 ## @showdialog
 
-Programme le micro:bit et le circuit électrique.
+Dans ce tutoriel, tu vas programmer ton micro:bit 💻 et créer un circuit électrique 🔌 où la DEL (LED) 💡 clignotera lorsque tu secoues le micro:bit! 🤯✨
+
+🚨 Lis bien chaque étape avant de continuer! 🚨
 
 ## Étape 1 
 
 Supprime les blocs ``||basic:au démarrage||`` et ``||basic:toujours||``.
 
+🗑️ Tu n'en auras pas besoin pour ce projet.
+
 ## Étape 2
 
-Glisse le bloc ``|| input: lorsque secouer ||`` dans la zone de programmation.
+Glisse le bloc ``|| input: lorsque secouer ||`` dans la zone de programmation. 
+
+🤝💥
 
 Ajoute le bloc ``|| pins: écrire sur la broche ||`` dans le bloc ``|| input: lorsque secouer ||``.
 
@@ -28,7 +34,9 @@ Modifie les valeurs du bloc ``|| pins: écrire sur la broche ||``.
 
 Remplace la broche ``|| pins: P0 ||`` par ``|| pins: P2 ||``.
 
-Remplace la valeur ``|| pins: 0 ||`` par ``|| pins: 1 ||``.
+🔆 Remplace la valeur ``|| pins: 0 ||`` par ``|| pins: 1 ||``.
+
+
 
 ```blocks
 
@@ -44,7 +52,7 @@ Ajoute le bloc ``|| basic: pause ||`` sous le bloc ``|| pins: écrire sur la bro
 
 Modifie la valeur du bloc ``|| basic: pause ||``.
 
-Remplace la valeur ``|| basic: 100 ||`` par ``|| basic: 500 ||``.
+⏱️ Remplace la valeur ``|| basic: 100 ||`` par ``|| basic: 500 ||``.
 
 ```blocks
 
@@ -63,7 +71,7 @@ Modifie les valeurs du bloc ``|| pins: écrire sur la broche ||``.
 
 Remplace la broche ``|| pins: P0 ||`` par ``|| pins: P2 ||``.
 
-La valeur ``|| pins: 0 ||`` demeure la même.
+💤 La valeur ``|| pins: 0 ||`` demeure la même.
 
 
 ```blocks
@@ -83,7 +91,7 @@ Ajoute le bloc ``|| basic: pause ||`` sous le bloc ``|| pins: écrire sur la bro
 
 Modifie la valeur du bloc ``|| basic: pause ||``.
 
-Remplace la valeur ``|| basic: 100 ||`` par ``|| basic: 500 ||``.
+⏱️ Remplace la valeur ``|| basic: 100 ||`` par ``|| basic: 500 ||``.
 
 ```blocks
 
@@ -102,7 +110,7 @@ Ajoute le bloc ``|| loops: répéter ||`` dans le bloc ``|| input: lorsque secou
 
 Insère la séquence de programmation dans celui-ci.
 
-Modifie la valeur du bloc ``|| loops: répéter ||``.
+🔁 Modifie la valeur du bloc ``|| loops: répéter ||``.
 
 Remplace la valeur ``|| loops: 4 ||`` par ``|| loops: 5 ||``.
 
@@ -121,14 +129,22 @@ input.onGesture(Gesture.Shake, function () {
 
 ## @showdialog 
 
-Réalise le branchement ci-dessous.
+🔌 Reproduis le branchement ci‑dessous.
 
-La couleur des fils n'a pas d'importance!
+🎨 La couleur des fils n'a aucune importance!
 
 ![MicroSeb](https://github.com/sbergeroncp/micro-seb/blob/master/3.png?raw=true)
 
 ## @showdialog 
 
-Félicitations! Tu as terminé de programmer un circuit électrique avec une lumière LED.
+🎉🎉🎉
 
-Pour tester le circuit électrique, télécharge la programmation dans le micro:bit.
+➡️ Bravo! Tu viens de programmer une LED qui clignote quand tu secoues le micro:bit! 💡💥
+
+Pour tester :
+
+📥 Télécharge ton programme dans le micro:bit.
+
+🤝 Secoue le micro:bit.
+
+👀 Observe la LED clignoter 5 fois!
