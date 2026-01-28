@@ -85,11 +85,15 @@ input.onButtonPressed(Button.B, function () {
 ## @showdialog 
 
 🎉🎉🎉
+
 ➡️ Bravo! Tu viens de programmer un circuit électrique contrôlé par les boutons 🅰️ et 🅱️.
 
 Pour tester  :
 
 📥 Télécharge ton programme dans le micro:bit.
-👆 Appuie sur A pour allumer la LED.
-👆 Appuie sur B pour l'éteindre.
-✨ Observe ton circuit en action!
+
+👆 Appuie sur 🅰️ pour allumer la LED.
+
+👆 Appuie sur 🅱️ pour l'éteindre.
+
+👀  Observe ton circuit en action!

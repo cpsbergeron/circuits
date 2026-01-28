@@ -59,4 +59,5 @@ basic.forever(function () {
 Pour tester :
 
 📥 Télécharge ton programme dans le micro:bit.
+
 👀 Observe la LED s'allumer grâce à ta programmation!
