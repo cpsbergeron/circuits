@@ -4,6 +4,8 @@
 
 Dans ce tutoriel, tu vas programmer ton micro:bit 💻 et créer un circuit électrique 🔌 où les boutons 🅰️ et 🅱️ serviront à allumer et à éteindre une DEL (LED) 💡.
 
+🚨 Lis bien chaque étape avant de continuer! 🚨
+
 ## Étape 1 
 
 Supprime les blocs ``||basic:au démarrage||`` et ``||basic:toujours||``.

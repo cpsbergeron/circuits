@@ -5,6 +5,7 @@
 ## @showdialog
 
 Dans ce tutoriel, tu vas programmer un micro:bit 💻 et réaliser un petit circuit électrique 🔌 pour allumer une lumière DEL (LED) 💡.
+
 🚨 Lis bien chaque étape avant de continuer! 🚨
 
 ## Étape 1
