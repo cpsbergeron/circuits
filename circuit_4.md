@@ -2,16 +2,19 @@
 
 ## @showdialog
 
-Programme le micro:bit et le circuit électrique.
+Dans ce tutoriel, tu vas programmer un éclairage de sécurité 💡🔦 avec ton micro:bit 💻 et un circuit électrique 🔌.
+
+La LED s'allumera automatiquement lorsqu'il fait sombre!
 
 ## Étape 1
 
 Supprime le bloc ``||basic:au démarrage||``.
 
+🗑️ Tu n'en auras pas besoin pour ce projet.
 
 ## Étape 2
  
-Crée une ``|| variables: variable  ||`` et donne lui le nom ``|| variables: LED  ||``. 
+🏷️ Crée une ``|| variables: variable  ||`` et donne lui le nom ``|| variables: LED  ||``. 
 
 Ajoute le bloc ``|| variables: définir LED ||`` dans le bloc ``|| basic: toujours  ||``.
 
@@ -26,7 +29,9 @@ basic.forever(function () {
 
 ## Étape 3
  
-Remplace la valeur ``|| variables: 0 ||`` du bloc ``|| variables: définir LED  ||`` par le bloc ``|| input: niveau d'intensité luminosité  ||``.
+🔆 Remplace la valeur ``|| variables: 0 ||`` du bloc ``|| variables: définir LED  ||`` par le bloc ``|| input: niveau d'intensité luminosité  ||``.
+
+Cela permet au micro:bit de mesurer la lumière autour de lui.
 
 ```blocks 
 
@@ -39,8 +44,9 @@ basic.forever(function () {
 
 ## Étape 4 
 
-Ajoute le bloc ``|| logic: si vrai alors sinon  ||`` sous le bloc ``|| variables:définir LED ||``. 
+⚖️ Ajoute le bloc ``|| logic: si vrai alors sinon  ||`` sous le bloc ``|| variables:définir LED ||``. 
  
+ (ce n'est qu'une programmation temporaire...)
 
 ```blocks 
 

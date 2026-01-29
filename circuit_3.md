@@ -36,8 +36,6 @@ Remplace la broche ``|| pins: P0 ||`` par ``|| pins: P2 ||``.
 
 🔆 Remplace la valeur ``|| pins: 0 ||`` par ``|| pins: 1 ||``.
 
-
-
 ```blocks
 
 input.onGesture(Gesture.Shake, function () {

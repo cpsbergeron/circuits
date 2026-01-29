@@ -80,6 +80,7 @@ input.onButtonPressed(Button.B, function () {
 ## @showdialog 
 
 🔌 Reproduis le branchement ci‑dessous.
+
 🎨 La couleur des fils n'a pas d'importance!
 
 ![MicroSeb](https://github.com/sbergeroncp/micro-seb/blob/master/2.png?raw=true)
